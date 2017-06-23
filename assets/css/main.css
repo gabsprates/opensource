@@ -49,7 +49,7 @@ body {
   text-transform: lowercase;
 }
 .project {
-  background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAIAAAACCAYAAABytg0kAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAABZJREFUeNpiOHfu3H8gYGAEESAAEGAAbXQJZTSbcasAAAAASUVORK5CYII=") #f2f2f2;
+  background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAIAAAACCAYAAABytg0kAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAABZJREFUeNpiOHfu3H8gYGAEESAAEGAAbXQJZTSbcasAAAAASUVORK5CYII=") #F2F2F2;
   height: 200px;
   margin-bottom: 20px;
   position: relative;
@@ -59,6 +59,9 @@ body {
   height: 168px;
   margin: 6px;
   padding: 10px;
+}
+.project .container-inner .project-title {
+  overflow-wrap: break-word;
 }
 .project .countdown-break {
   background-color: #0074CC;
@@ -115,8 +118,4 @@ body {
 }
 .title .social .item:first-child {
   margin-left: 10px;
-}
-
-.fb-like span {
-  vertical-align: top !important;
 }

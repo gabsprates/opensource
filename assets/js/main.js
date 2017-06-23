@@ -3,7 +3,7 @@
     var organizations = ["globocom", "clappr", "thumbor", "tsuru", "galeb"];
     var PROJECT = '<div class="span4 project hide">' +
                    '    <div class="container-inner">' +
-                   '      <h2>#{title}</h2>' +
+                   '      <h2 class="project-title">#{title}</h2>' +
                    '      <p class="description">#{description}</p>' +
                    '      <a class="btn" href="#{html_url}">view details &raquo;</a>' +
                    '    </div>' +
